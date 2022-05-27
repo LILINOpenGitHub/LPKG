@@ -6,7 +6,7 @@ LPKG script is in JSON (JavaScript Object Notation) format that is a lightweight
 
 # What is inside LPKG
 A LPKG example is descrbed below:
-
+```
 {
   "name" : "LILIN LPR",
   "description" : "LILIN LPR functional programming.",
@@ -21,3 +21,4 @@ A LPKG example is descrbed below:
   "url_icon" : "/lpr/lilin.png",
   "version" : "1.1.6"
 }
+```

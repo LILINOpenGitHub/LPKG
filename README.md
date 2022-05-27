@@ -33,10 +33,9 @@ A LPKG example is descrbed below:
 |shell	| LPKG start and stop shell script |
 | | The shell script will add start or stop parameter for after your shell script automatically.  <BR> For example: <BR> /lpr/lilinshell.sh start  <BR> /lpr/lilinshell.sh stop |
 | port	| LPKG plug-in server port | 
-| md5	| md5 check sum of Image | 
+| md5	| md5 check sum of Image (for future use) | 
 | url_index	| LPKG plug-in server index page path |
 | url_icon	| LPKG plug-in icon path |
-
 | The icon | file data format is PNG  |
 | version	|LPKG plug-in version |
 

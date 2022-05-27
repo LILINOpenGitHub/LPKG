@@ -54,9 +54,9 @@ tar -czf plugincv22s66.bin *
 <BR> 
 For example:
 
-updateamba_cv22.sh (CV22)
-updateamba_cv25.sh (CV25)
-updateamba_s2.sh (CV2)
+updateamba_cv22.sh (CV22) <BR>
+updateamba_cv25.sh (CV25) <BR>
+updateamba_s2.sh (CV2) <BR>
 
 Image is a directory of your software.
 

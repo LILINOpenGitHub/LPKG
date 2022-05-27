@@ -72,3 +72,8 @@ LPKG.json is the script of your plug-in.
 
 # Load your LPKG to the camera
 After packaging your application including libraries and binaries, you are able to perform firmware upgrade.
+  
+# The result
+
+![image](https://github.com/LILINOpenGitHub/LPKG/blob/main/image/firmwareupdate.jpg)
+

@@ -48,7 +48,9 @@ tar -czf plugincv22s66.bin *
 ```
 2. Prepare a directory with the Image directory, update_cv22.sh, and LPKG.json. <BR>
 <BR>
+
 ![image](https://github.com/LILINOpenGitHub/LPKG/blob/main/image/image.jpg)
+
 <BR> 
 For example:
 

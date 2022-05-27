@@ -74,6 +74,7 @@ LPKG.json is the script of your plug-in.
 After packaging your application including libraries and binaries, you are able to perform firmware upgrade.
   
 # The result
+The folowing 
 
 ![image](https://github.com/LILINOpenGitHub/LPKG/blob/main/image/firmwareupdate.jpg)
 

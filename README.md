@@ -47,9 +47,26 @@ Please follow the steps below for packaging your application with LPKG script be
 tar -czf plugincv22s66.bin *  
 ```
 2. Prepare a directory with the Image directory, update_cv22.sh, and LPKG.json. <BR>
+<BR>
+  
+For example:
+
+updateamba_cv22.sh (CV22)
+updateamba_cv25.sh (CV25)
+updateamba_s2.sh (CV2)
+
+	LPKG.json is the script of your plug-in.
 ![image](https://github.com/LILINOpenGitHub/LPKG/blob/main/image/image.jpg)
 <BR>
 Image is a directory of your software.
 
 updateamba_cv22.sh is using to control installtion process and the file name must be “updateamba_xx.sh”. The xx the is SOC platform name.
+  
+For example:
+
+updateamba_cv22.sh (CV22)
+updateamba_cv25.sh (CV25)
+updateamba_s2.sh (CV2)
+
+LPKG.json is the script of your plug-in.
 

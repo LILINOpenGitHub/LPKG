@@ -1,7 +1,7 @@
 # What is LPKG
 LPKG (LILIN Software Packaging Script) is the descriptive script for third-party developer's applications including libraries and binaries run on LILIN camera.  The LPKG script is used to retrieve information about developer's libraries and binaries by the IP camera.  It is a user interface for accessing developer plug-in via LILIN IP camera.
 
-# LPKG Description
+# LPKG description
 LPKG script is in JSON (JavaScript Object Notation) format that is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.
 
 # What is inside LPKG
@@ -38,4 +38,17 @@ A LPKG example is descrbed below:
 | url_icon	| LPKG plug-in icon path |
 | The icon | file data format is PNG  |
 | version	|LPKG plug-in version |
+
+# LPKG installation package
+Please follow the steps below for packaging your application with LPKG script below:
+
+1.	Create the tar file in the directory.
+```
+tar -czf plugincv22s66.bin *  
+```
+2. Prepare a directory with the Image directory, update_cv22.sh, and LPKG.json.
+
+Image is a directory of your software.
+
+updateamba_cv22.sh is using to control installtion process and the file name must be “updateamba_xx.sh”. The xx the is SOC platform name.
 

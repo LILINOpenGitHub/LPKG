@@ -31,7 +31,7 @@ A LPKG example is descrbed below:
 |Author | Contact person |
 |root	| LPKG root path |
 |shell	| LPKG start and stop shell script |
-| | The shell script will add start or stop parameter for after your shell script automatically.  <BR>
+| | The shell script will add start or stop parameter for after your shell script automatically.  
   For example: 
   /lpr/lilinshell.sh start 
   /lpr/lilinshell.sh stop |

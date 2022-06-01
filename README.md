@@ -66,13 +66,13 @@ Image is a directory of your software.
 
 updateamba_cv22.sh is using to control installtion process and the file name must be “updateamba_xx.sh”. The xx the is SOC platform name.
   
-For example:
+For example: <BR>
 
-updateamba_cv22.sh (CV22)
-updateamba_cv25.sh (CV25)
-updateamba_s2.sh (CV2)
+updateamba_cv22.sh (CV22) <BR>
+updateamba_cv25.sh (CV25) <BR>
+updateamba_s2.sh (CV2) <BR>
 
-LPKG.json is the script of your plug-in.
+LPKG.json is the script of your plug-in. <BR>
 
 # Load your LPKG to the camera
 After packaging your application including libraries and binaries, you are able to perform firmware upgrade.

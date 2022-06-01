@@ -8,18 +8,21 @@ LPKG script is in JSON (JavaScript Object Notation) format that is a lightweight
 A LPKG example is descrbed below:
 ```
 {
-  "name" : "LILIN LPR",
-  "description" : "LILIN LPR functional programming.",
-  "homepage" : "http://www.meritlilin.com.tw",
-  "keywords" : ["LPR", "functional", "server", "client", "browser"],
-  "author" : "chirun <chirun@meritlilin.com.tw >",
-  "root" : "/lpr"
-  "shell" : "/lpr/lilinshell.sh",
-  "port" : "8592",
-  "md5" : "WQEWRFFDFWEIUHEDEDREF",
-  "url_index" : "/lpr/index.htm",
-  "url_icon" : "/lpr/lilin.png",
-  "version" : "1.1.6"
+  "name": "LILIN Aida Camera Plug-in",
+  "description": "LILIN Aida Camera Plug-in",
+  "homepage": "http://www.meritlilin.com",
+  "keywords": [
+    "gynet"
+  ],
+  "author": "LILIN <fae@meritlilin.com.tw>",
+  "root": "/Aida",
+  "root_data": "/Aida_data",
+  "shell": "/Aida_data/aiengine",
+  "port": "8592",
+  "md5": "65142bd2198b3568803efdde6020b94e",
+  "url_index": "/Aida/index.html",
+  "url_icon": "/Aida/lilin.png",
+  "version": "2.0.3.32-mod001"
 }
 ```
 
@@ -28,8 +31,9 @@ A LPKG example is descrbed below:
 | name | LPKG name |
 | description | LPKG description |
 | homepage | LPKG home page |
-|Author | Contact person |
-|root	| LPKG root path |
+| keywords | the keywords to terminate your application | 
+| Author | Contact person |
+| root	| LPKG root path |
 |shell	| LPKG start and stop shell script |
 | | The shell script will add start or stop parameter for after your shell script automatically.  <BR> For example: <BR> /lpr/lilinshell.sh start  <BR> /lpr/lilinshell.sh stop |
 | port	| LPKG plug-in server port | 

@@ -59,7 +59,7 @@ tar -czf plugincv22s66.bin *
 For example:
 
 updateamba_cv22.sh (CV22) <BR>
-updateamba_cv25.sh (CV25) <BR>
+updateamba_cv25m.sh (CV25) <BR>
 updateamba_s2.sh (CV2) <BR>
 
 Image is a directory of your software.
@@ -69,7 +69,7 @@ updateamba_cv22.sh is using to control installtion process and the file name mus
 For example: <BR>
 
 updateamba_cv22.sh (CV22) <BR>
-updateamba_cv25.sh (CV25) <BR>
+updateamba_cv25m.sh (CV25) <BR>
 updateamba_s2.sh (CV2) <BR>
 
 LPKG.json is the script of your plug-in. <BR>

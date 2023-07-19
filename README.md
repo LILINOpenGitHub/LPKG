@@ -88,12 +88,12 @@ the CGI is: http://192.168.0.200:80/maintenance?lpkg_start=<PluginName> <BR><BR>
 The curl syntax is:<BR>
 curl -X GET http://admin:Pass1234@192.168.26.65/maintenance?lpkg_start=CameraPlug-in <BR>
 
-where <PluginName> is the plugin name.
+where <|CameraPlug-in|> is the plugin name.
 
 Stop plugin:<BR>
 the CGI is http://192.168.0.200:80/maintenance?lpkg_stop=<|CpluginName|><BR><BR>
 The curl syntax is: <BR>
-curl -X GET http://admin:Pass1234@192.168.26.65/maintenance?lpkg_stop=CameraPlug-in <BR>
+curl -X GET http://admin:Pass1234@192.168.26.65/maintenance?lpkg_stop=<|CameraPlug-in|> <BR>
 
-where <PluginName> is the plugin name.
+where <|CameraPlug-in|> is the plugin name.
 

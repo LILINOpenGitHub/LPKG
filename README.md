@@ -82,3 +82,14 @@ The folowing is an example of third-party youtube streamer and LILIN AI plug-in.
 
 ![image](https://github.com/LILINOpenGitHub/LPKG/blob/main/image/firmwareupdate.jpg)
 
+# The CGI command
+Start plugin:
+the CGI is: http://192.168.0.200:80/maintenance?lpkg_start=CameraPlug-in
+The curl syntax is:
+curl -X GET http://admin:Pass1234@192.168.26.65/maintenance?lpkg_start=CameraPlug-in
+ 
+Stop plugin:
+the CGI is http://192.168.0.200:80/maintenance?lpkg_stop=CameraPlug-in
+The curl syntax is: 
+curl -X GET http://admin:Pass1234@192.168.26.65/maintenance?lpkg_stop=CameraPlug-in
+
